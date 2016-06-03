@@ -1,0 +1,67 @@
+div.workplaces {
+  background-color: transparent;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  text-align: left;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+#container:active {
+  background-color: #fff;
+}
+
+#container {
+  width: 800px;
+  margin: 40px auto 30px;
+  padding: 10px 150px 10px 150px;
+  border-radius: 15px;
+  background-color: #EEEEEE;
+}
+
+.date {
+  float:right;
+}
+
+.image {
+  width: 30%;
+  float:right;
+  opacity: 0;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image:hover {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+
+h1 {
+  font-size: 32px;
+  color: gray;
+}
+
+h2 {
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 22px;
+  color: gray;
+}
+
+h4 {
+  border-bottom: 1px solid#999;
+  font-size: 20px;
+  color: #00B4FF;
+}
